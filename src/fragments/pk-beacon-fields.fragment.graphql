@@ -1,0 +1,6 @@
+fragment PKBeaconFields on PKBeacon {
+  major
+  minor
+  proximityUUID
+  relevantText
+}

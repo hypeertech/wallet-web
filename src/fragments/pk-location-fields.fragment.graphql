@@ -1,0 +1,6 @@
+fragment PKLocationFields on PKLocation {
+  altitude
+  latitude
+  longitude
+  relevantText
+}

@@ -1,0 +1,4 @@
+fragment HTMLImageElementFields on HTMLImageElement {
+  srcset
+  imageset
+}

@@ -1,0 +1,4 @@
+fragment PKNFCFields on PKNFC {
+  message
+  encryptionPublicKey
+}

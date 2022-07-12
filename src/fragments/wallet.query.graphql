@@ -1,0 +1,7 @@
+query Wallet {
+  wallet {
+    passCollection {
+      ...WalletPassFields
+    }
+  }
+}

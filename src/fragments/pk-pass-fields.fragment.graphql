@@ -1,0 +1,18 @@
+fragment PKPassFields on PKPass {
+  auxiliaryFields {
+    ...PKFieldsFields
+  }
+  backFields {
+    ...PKFieldsFields
+  }
+  headerFields {
+    ...PKFieldsFields
+  }
+  primaryFields {
+    ...PKFieldsFields
+  }
+  secondaryFields {
+    ...PKFieldsFields
+  }
+  transitType
+}

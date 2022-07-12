@@ -1,0 +1,32 @@
+.box {
+  position: relative;
+  width: 28.2rem;
+  height: 36.8rem;
+  padding: 1.9rem 1.5rem;
+  overflow: hidden;
+}
+
+.box:before {
+  position: absolute;
+  top: -3rem;
+  left: 0;
+  right: 0;
+  display: block;
+  width: 6.5rem;
+  height: 4.6rem;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50%;
+  background-color: white;
+  content: '';
+}
+
+.auxiliary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.b:nth-child(2n) {
+  text-align: right;
+}

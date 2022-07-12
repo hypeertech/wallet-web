@@ -1,0 +1,6 @@
+fragment PKBarcodeFields on PKBarcode {
+  altText
+  format
+  message
+  messageEncoding
+}

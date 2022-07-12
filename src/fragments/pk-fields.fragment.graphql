@@ -1,0 +1,65 @@
+fragment PKFields on PK {
+  description
+  formatVersion
+  organizationName
+  passTypeIdentifier
+  serialNumber
+  teamIdentifier
+  appLaunchURL
+  associatedStoreIdentifiers
+  userInfo
+  expirationDate
+  voided
+  beacons {
+    ...PKBeaconFields
+  }
+  locations {
+    ...PKLocationFields
+  }
+  maxDistance
+  relevantDate
+  boardingPass {
+    ...PKPassFields
+  }
+  coupon {
+    ...PKPassFields
+  }
+  eventTicket {
+    ...PKPassFields
+  }
+  generic {
+    ...PKPassFields
+  }
+  storeCard {
+    ...PKPassFields
+  }
+  barcode {
+    ...PKBarcodeFields
+  }
+  barcodes {
+    ...PKBarcodeFields
+  }
+  backgroundColor
+  foregroundColor
+  groupingIdentifier
+  labelColor
+  logoText
+  suppressStripShine
+  authenticationToken
+  webServiceURL
+  nfc {
+    ...PKNFCFields
+  }
+  background {
+    ...HTMLImageElementFields
+  }
+  icon {
+    ...HTMLImageElementFields
+  }
+  logo {
+    ...HTMLImageElementFields
+  }
+  thumbnail {
+    ...HTMLImageElementFields
+  }
+}

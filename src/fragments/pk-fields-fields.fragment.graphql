@@ -1,0 +1,15 @@
+fragment PKFieldsFields on PKFields {
+  attributedValue
+  changeMessage
+  dataDetectorTypes
+  key
+  label
+  textAlignment
+  value
+  dateStyle
+  ignoresTimeZone
+  isRelative
+  timeStyle
+  currencyCode
+  numberStyle
+}

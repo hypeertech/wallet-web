@@ -1,0 +1,6 @@
+fragment WalletPassFields on WalletPass {
+  id
+  passkitData {
+    ...PKFields
+  }
+}
